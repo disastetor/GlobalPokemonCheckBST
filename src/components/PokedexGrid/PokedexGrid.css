@@ -1,4 +1,4 @@
-.container {
+.container-poke {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -19,4 +19,9 @@
     width: 100vw;
     height: 100vw;
   }
+}
+
+.search-bar {
+  width: 50%;
+  margin: 1% auto;
 }

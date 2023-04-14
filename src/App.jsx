@@ -1,5 +1,6 @@
 import './App.css';
 import PokedexGrid from './components/PokedexGrid/PokedexGrid';
+
 function App() {
   return (
     <div className="App">

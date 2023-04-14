@@ -9,13 +9,13 @@ const PokemonFetch = (props) => {
       .then((res) => res.json())
       .then((res) => {
         setPokemon(res);
-        console.log(res);
+        //console.log(res);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log('err'));
   }, []);
 
   if (pokemon) {
-    console.log(pokemon);
+    //console.log(pokemon);
 
     // Pokemon info
     const name = pokemon.name;
@@ -29,16 +29,18 @@ const PokemonFetch = (props) => {
       pokemon.stats[5].base_stat;
 
     return (
-      <div className="card">
-        <div className="title">{<h3>{name}</h3>}</div>
-        <div className="img-container">
+      <div className="card-poke">
+        <div className="title-poke">
+          {<h3 className="title-poke-child">{name}</h3>}
+        </div>
+        <div className="img-container-poke">
           <img
-            className="image"
+            className="image-poke"
             src={imgUrl ? imgUrl : '/pokeball.svg'}
             alt={name}
           />
         </div>
-        <div className="bst">
+        <div className="bst-poke">
           <h3>BST: {totalBST}</h3>
         </div>
       </div>
