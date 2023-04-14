@@ -1,0 +1,8 @@
+#root {
+  text-align: center;
+}
+
+.App {
+  text-transform: capitalize;
+  width: 100vw;
+}

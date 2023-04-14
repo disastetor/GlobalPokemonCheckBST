@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  background-color: rgb(5, 5, 5, 0.3);
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.image {
+  margin: 5%;
+  width: 70%;
+}
+
+.title {
+  color: white;
+  height: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 3%;
+}
+
+.img-container {
+  height: 90%;
+}
+
+.bst {
+  height: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  font-size: larger;
+  margin: -5% 0;
+}

@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.pokemon-card {
+  width: 32vw;
+  height: 32vw;
+  margin: 2px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .pokemon-card {
+    width: 100vw;
+    height: 100vw;
+  }
+}
